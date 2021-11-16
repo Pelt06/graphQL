@@ -1,0 +1,40 @@
+[
+    {
+        "model": "products.category",
+        "pk": 1,
+        "fields": {
+            "name": "Laptops"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+            "name": "Celulares"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "G5",
+            "brand": "Dell",
+            "description": "Laptop ultimo modelo",
+            "initprice": "9000",
+            "finalprice": "12000",
+            "category": 1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Galaxy A51",
+            "brand": "Samsung",
+            "description": "Telefono gama media",
+            "initprice": "1000",
+            "finalprice": "1500",
+            "category": 1
+        }
+    }
+]
